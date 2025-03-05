@@ -8,6 +8,9 @@ int main() {
     shop.addItem(new Computer("MacBook Pro 13", 120000.00, "Apple M1", "16GB", "1T HDD & 512SSD"));
     shop.addItem(new Computer("Lenovo ThinkPad x280", 30000.00, "Intel Core i5", "8GB", "512SSD"));
 
+    shop.addItem(new Cellphone("iPhone 16 Pro Max", 83990.75, "A18 Pro chip", "8GB", "512"));
+    shop.addItem(new Cellphone("realme Note 50", 83990.00, "Unisoc T612", "8GB", "128GB "));
+
     shop.addItem(new Accessory("Wireless Mouse", 249.50, "Input Device"));
     shop.addItem(new Accessory("Keyboard", 500.00, "Input Device"));
     shop.addItem(new Accessory("Canon PIXMA TS207 Printer", 4495.99, "Output Device"));
